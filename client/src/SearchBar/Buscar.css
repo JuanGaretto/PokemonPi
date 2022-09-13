@@ -1,0 +1,39 @@
+.neg{
+    color: black;
+}
+
+
+.boton {
+    color: rgb(255, 255, 255);    
+    margin-right: 10px;
+    margin: 2px;
+    margin-bottom: 10px;    
+    height: 45px;
+    background-image: url("https://wallpapercave.com/wp/wp4853940.jpg");
+    background-size: 100%;
+    border-radius: 20%;   
+    border-color: white; 
+    cursor: pointer; 
+    right: 30px;     
+    
+   }
+
+ 
+   .bus{
+    color: rgb(255, 255, 255);    
+    margin-right: 10px;
+    margin: 2px;
+    margin-bottom: 10px;    
+    height: 45px;
+    background-image: url("https://wallpapercave.com/wp/wp4853940.jpg");
+    background-size: 80%;
+    border-radius: 20%;   
+    border-color: white; 
+    cursor: pointer; 
+    right: 30px; 
+   }
+   
+
+   
+
+   

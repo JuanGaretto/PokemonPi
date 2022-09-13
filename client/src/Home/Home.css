@@ -1,0 +1,19 @@
+div select {
+    margin-left: 50px;
+    border-radius: 4px;
+    padding: 7px;
+    margin-top: 10px;
+    border: none !important;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    outline: none;
+    border-color: rgb(255, 0, 0);
+    
+}
+
+
+.menu{
+   color: white;
+}
+
+
