@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import {useHistory} from "react-router-dom"
 import { getType, postPokemon } from "../store/actions/index.js";
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ import "./PokemonCreate.css";
 function validate(pokemon){
   let errors = {};
   if (!pokemon.name){
-    errors.name = "Se requiere un nombre"
+    errors.name = "A name is required"
   } return errors
 }
 
@@ -85,7 +85,7 @@ function onSubmit(e) {
     <div className = "pagina">   
     <form className="fond " onSubmit={onSubmit}>
       <h3 className="title"> ¡Create Your Pokemon!</h3>
-       <label for="name" className="stats"> Nombre: </label>
+       <label for="name" className="stats"> Name: </label>
         <input
           onChange={onInputChange}
           id="name"
@@ -98,7 +98,7 @@ function onSubmit(e) {
         {errors.name && <p className="error"> {errors.name}</p>}
      
         
-        <label htmlFor="" className="stats">Imagen: </label>
+        <label htmlFor="" className="stats">Image: </label>
         <input
           onChange={onInputChange}
           name="image"
@@ -119,7 +119,7 @@ function onSubmit(e) {
         />{" "}
     
      
-        <label htmlFor="" className="stats">Fuerza: </label>
+        <label htmlFor="" className="stats">Attack: </label>
         <input
           onChange={onInputChange}
           name="attack"
@@ -129,7 +129,7 @@ function onSubmit(e) {
         />{" "}
      
      
-        <label htmlFor="" className="stats">Defensa: </label>
+        <label htmlFor="" className="stats">Defense: </label>
         <input
           onChange={onInputChange}
           name="defense"
@@ -139,7 +139,7 @@ function onSubmit(e) {
         />{" "}
      
      
-        <label htmlFor="" className="stats">Velocidad: </label>
+        <label htmlFor="" className="stats">Speed: </label>
         <input
           onChange={onInputChange}
           name="speed"
@@ -149,7 +149,7 @@ function onSubmit(e) {
         />{" "} 
         {" "}
         
-        <label htmlFor="" className="stats"> Altura: </label>
+        <label htmlFor="" className="stats">Height: </label>
         <input
           onChange={onInputChange}
           name="height"
@@ -159,7 +159,7 @@ function onSubmit(e) {
         />{" "}
      
      
-        <label htmlFor="" className="stats">Peso: </label>
+        <label htmlFor="" className="stats">Weight: </label>
         <input
           onChange={onInputChange}
           name="weight"
@@ -184,8 +184,8 @@ function onSubmit(e) {
             <option value = "Fairy" className="tt"> Fairy </option>                  
         </select>        
         </p>
-      <Link to="/home"><button type="submit" className="boton2">Atrás</button></Link>
-      <button type="submit" className="boton2">Crear</button>
+      <Link to="/home"><button type="submit" className="boton2">Back</button></Link>
+      <button type="submit" className="boton2">Create</button>
     </form>
     </div>
   );

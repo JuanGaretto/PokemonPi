@@ -17,7 +17,7 @@ export function searchPoke(name) {
         payload: json.data,
       });
     } catch {
-      return alert("No se encontró el pokemon");
+      return alert("Pokemon not found");
     }
   };
 }
