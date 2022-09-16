@@ -4,6 +4,7 @@ import EnterPag from "./EnterPag/EnterPage"
 import Home from "./Home/Home"
 import PokemonCreate from "./CreatePokemon/PokemonCreate";
 import Detail from "./Detail/Detail";
+import Footer from "./Footer/footer"
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         <Route exact path='/home' component={Home}  />
          <Route exact path="/home/:id" component={Detail}/>
         <Route  path='/create' component={PokemonCreate} />         
-          </Switch>             
+        </Switch>  
+        <Footer/>
       </div>
       </BrowserRouter>
   );

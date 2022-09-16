@@ -1,5 +1,5 @@
 .container{
-    width: 1200px;
+    width: auto;
     margin: auto;     
 }
 
@@ -8,20 +8,20 @@
     bottom: 0;
     width: 100%;
     font-size: 15px;
+    background-color: #6363638e;
 }
 
 .footer span{
     font-weight: 700;
 }
 
-.footerBg{
-    background-color: #6363638e;
-}
+
 
 .footerDiv{
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    
 }
 
 .footerInfo{
@@ -30,4 +30,5 @@
 
 .footerLink a{
     color: white;
+   
 }

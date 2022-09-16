@@ -170,22 +170,22 @@ function onSubmit(e) {
      
         {" "}
         <p className="typos">
-        <select onChange={handleSelect} className= "tt">  
+        <select onChange={handleSelect} className= "t">  
              
             <option value = "Normal" className="tt">Normal  </option>
-            <option value = "Flying" className="tt"> Flying </option>
-            <option value = "Poison" className="tt"> Poison </option>
-            <option value = "Ground" className="tt"> Ground </option>
-            <option value = "Bug" className="tt"> Bug </option>
-            <option value = "Fire" className="tt"> Fire </option>
-            <option value = "Water" className="tt"> Water </option>
-            <option value = "Grass" className="tt"> Grass </option>
-            <option value = "Electric" className="tt"> Electric </option>
-            <option value = "Fairy" className="tt"> Fairy </option>                  
+            <option value = "Flying" className="tt2"> Flying </option>
+            <option value = "Poison" className="tt3"> Poison </option>
+            <option value = "Ground" className="tt4"> Ground </option>
+            <option value = "Bug" className="tt5"> Bug </option>
+            <option value = "Fire" className="tt6"> Fire </option>
+            <option value = "Water" className="tt7"> Water </option>
+            <option value = "Grass" className="tt8"> Grass </option>
+            <option value = "Electric" className="tt9"> Electric </option>
+            <option value = "Fairy" className="tt10"> Fairy </option>                  
         </select>        
         </p>
       <Link to="/home"><button type="submit" className="boton2">Back</button></Link>
-      <button type="submit" className="boton2">Create</button>
+      <button type="submit" className="boton3">Create</button>
     </form>
     </div>
   );

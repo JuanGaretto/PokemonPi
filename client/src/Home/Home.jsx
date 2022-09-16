@@ -79,7 +79,7 @@ function Home() {
             <select onChange={handleFilterCreated}>
               <option value="Todos" className="menu"> All </option>
               <option value="Creados" className="menu"> Created </option>
-              <option value="Existentes" className="menu"> Exist </option>
+              
             </select>
             <Paginado
               pokemonsPerPage={pokemonsPerPage}

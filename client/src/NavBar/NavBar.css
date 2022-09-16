@@ -3,7 +3,6 @@
   width:140px;
   float: left;
   margin-left: 10px;
-  /* margin-bottom: 30px; */
   transform: translate(0px,-18px)
   
 }
@@ -25,4 +24,16 @@
   overflow: hidden;
   height: 70px;
   background-color: #ff0000;
+}
+.logo2{
+  float: left;
+  margin-top: 15px;
+  margin-right: 20px;
+  font-size: 25px;
+  color: white;
+  font-family: 'Rancho', cursive;
+  transition-duration: 0.4s
+}
+.logo2:hover{
+  color: rgba(0, 0, 0, 0.938);
 }

@@ -17,10 +17,21 @@
     margin-bottom: 10px;    
     height: 45px;
     background-image: url("https://wallpapercave.com/wp/wp4853940.jpg");
-    background-size: 90%;
+    background-size: 117%;
     border-radius: 50%;   
-    border-color: white; 
-      
+    border-color: white;      
+    
+}
+.boton3{ 
+    color: white;    
+    margin-right: 10px;
+    margin: 2px;
+    margin-bottom: 10px;    
+    height: 45px;
+    background-image: url("https://wallpapercave.com/wp/wp4853940.jpg");
+    background-size: 100%;
+    border-radius: 50%;   
+    border-color: white;      
     
 }
 
@@ -55,7 +66,7 @@
 	background:rgba(136, 135, 138, 0.411);
 	margin-left: auto;
 	margin-right:auto;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.438);
+	text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.438);
     }
 .input{
         outline: none;
@@ -81,6 +92,59 @@ label {
 	font-size: 14px;
 }
 .tt{
-    color: white;
+    color: rgb(143, 141, 141);
+    margin-left: 5%;
    
+}
+.tt2{
+    color: rgb(40, 221, 245);
+    margin-left: 5%;
+   
+}
+.tt3{
+    color: rgb(150, 17, 177);
+    margin-left: 5%;
+   
+}
+.tt4{
+    color: rgb(116, 81, 16);
+    margin-left: 5%;
+   
+}
+.tt5{
+    color: rgb(26, 110, 18);
+    margin-left: 5%;
+   
+}
+.tt6{
+    color: rgb(163, 65, 65);
+    margin-left: 5%;
+   
+}
+.tt7{
+    color: rgb(52, 77, 189);
+    margin-left: 5%;
+   
+}
+.tt8{
+    color: rgb(49, 219, 57);
+    margin-left: 5%;
+   
+}
+.tt9{
+    color: rgb(243, 239, 21);
+    margin-left: 5%;
+   
+}
+.tt10{
+    color: rgb(202, 46, 207);
+    margin-left: 5%;
+   
+}
+
+.t{
+    margin-left: 5%;     
+	background:rgba(7, 7, 7, 0.966);
+
+	
 }

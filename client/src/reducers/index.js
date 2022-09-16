@@ -26,14 +26,18 @@ function rootReducer(state = initialState, action) {
         pokemons: typeFiltered,
       };
     case "FILTER_CREATED":
-      const createdFilter =
-        action.payload === "Creados"
-          ? state.allPokemons.filter((e) => e.id.length > 2)
-          : state.allPokemons.filter((e) => e.id <= 40);
+      let copy = state.allPokemons;
+      let createdFiltered;
+      if (action.payload === 'Creados') {
+          createdFiltered = copy.filter(e => e.createdInBd);
+      } else if (action.payload === 'Todos') {
+          createdFiltered = copy.filter(e => !e.createdInBd);
+      } else {
+          createdFiltered = copy;
+      }
       return {
-        ...state,
-        pokemons:
-          action.payload === "Todos" ? state.allPokemons : createdFilter,
+          ...state,
+          pokemons: createdFiltered
       };
    
     case "POST_POKEMON":      
